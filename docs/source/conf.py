@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'mirisim_coronagraphy'
-copyright = '2023, KWD and collaborators'
+copyright = '2023, KWD, B. Michelson, and collaborators'
 author = ''
 
 release = '0.1'
