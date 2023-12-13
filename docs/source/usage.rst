@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use MIRISim Coronagraphy, first install MIRISim [here](https://wiki.miricle.org/Public/MirisimInstallation).
 
 .. code-block:: console
 
