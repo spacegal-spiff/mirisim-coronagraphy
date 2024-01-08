@@ -5,11 +5,11 @@ MIRISim Coronagraphy is a package designed to simulate high-fidelity level 1b ra
 
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+:ref:`installation` of the project.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. Keep checking back for more information!
 
 Contents
 --------
@@ -17,4 +17,4 @@ Contents
 .. toctree::
 
    usage
-   api
+   
