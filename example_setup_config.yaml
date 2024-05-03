@@ -1,0 +1,108 @@
+systemparams:
+      prefix: hd141569_f1550c
+      dist: 15.6 # pc
+      pa_deg: 173 # roll angle of observations (currently assumed to be PA_V3)
+      starposx: 0 # target offset from center of coronagraph mask
+      starposy: 0 # target offset from center of coronagraph mask
+
+configfilepaths:
+      simulator_config: simulator_coron_hd141569_1065_extended.ini
+
+sci_setup:
+      filtername: F1065C
+      n_exp: 1
+      n_int: 1
+      n_groups: 10
+      bg_level: low
+      bg_gradient: 5.0
+      bg_pa: 45.0 
+
+psf_setup:
+      n_exp: 1
+      n_int: 1
+      n_groups: 10
+      sgd_pattern: 5 # can be 5 or 9  
+      bg_level: low
+      bg_gradient: 5.0
+      bg_pa: 45.0   
+
+extendedscene:
+      disk: Y # Y or N
+      modelpath: ../Elodie_models/HD141569_Model_Pantin/HD141569_Model_Pantin_F1065C.fits # should be fits
+      model_path_output: 141569_1065_convolved_output.fits # should be fits
+      model_px_scale: 0.027491 # should be in px/arcsec
+      model_wv: 10.65 # micron
+      model_units: Jy/pixel
+      central_star: True # is there a star in the model?
+      save_convolved_cube: False
+
+starparams:
+      name: HD141569
+      age: 10
+      sptype: K0V 
+      teff: 5270
+      feh: 0.0
+      logg: 4.0
+      flux_ujy: 10.6e6 # flux in microjy
+      flux_ujy_refwv: 2.2 # micron
+
+psfrefparams:
+      name: HD190360_PSF
+      sptype: G7IV
+      teff: 5550 # K
+      feh: -0.01 # dex
+      logg: 3.22
+      #kmag: 3.04 # mag (2MASS Ks)
+      flux_ujy: 15.6e6 # flux in microjy
+      flux_ujy_refwv: 2.2 # micron      
+
+companion1:
+      name_witp: gj758b
+      mass: 10.0 # M_Jupiter
+      sent: 13.0 # kB/baryon
+      ra_off: -969.730 # mas
+      dec_off: -1022.35 # mas
+      teff: 741 # K
+      flux_ujy: 0.0000671e6 # flux in microjy
+      flux_ujy_refwv: 2.2 # micron   
+
+companion2: # placeholder if you have more planets
+      name_witp: gj758b
+      mass: 10.0 # M_Jupiter
+      sent: 13.0 # kB/baryon
+      ra_off: -969.730 # mas
+      dec_off: -1022.35 # mas
+      teff: 741 # K
+      flux_ujy: 0.0000671e6 # flux in microjy
+      flux_ujy_refwv: 2.2 # micron            
+
+companion3: # placeholder if you have more planets
+      name_witp: gj758b
+      mass: 10.0 # M_Jupiter
+      sent: 13.0 # kB/baryon
+      ra_off: -969.730 # mas
+      dec_off: -1022.35 # mas
+      teff: 741 # K
+      flux_ujy: 0.0000671e6 # flux in microjy
+      flux_ujy_refwv: 2.2 # micron 
+
+companion4: # placeholder if you have more planets
+      name_witp: gj758b
+      mass: 10.0 # M_Jupiter
+      sent: 13.0 # kB/baryon
+      ra_off: -969.730 # mas
+      dec_off: -1022.35 # mas
+      teff: 741 # K
+      flux_ujy: 0.0000671e6 # flux in microjy
+      flux_ujy_refwv: 2.2 # micron     
+
+companion5: # five planets? really? what is this, HR8799f?
+      name_witp: gj758b
+      mass: 10.0 # M_Jupiter
+      sent: 13.0 # kB/baryon
+      ra_off: -969.730 # mas
+      dec_off: -1022.35 # mas
+      teff: 741 # K
+      flux_ujy: 0.0000671e6 # flux in microjy
+      flux_ujy_refwv: 2.2 # micron         
+
