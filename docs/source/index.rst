@@ -16,3 +16,5 @@ Contents
 .. toctree::
 
    usage
+
+   example files
