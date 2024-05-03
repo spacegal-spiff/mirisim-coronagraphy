@@ -1,9 +1,9 @@
-Example files for running MIRISim Coronagraphy
+Usage
 =====
 
-.. _example_files:
+.. example_files:
 
-Necessary files
+Example files
 ------------
 
 To run MIRISim Coronagraphy after installing it, you'll need need to cd into a folder containing the following three files:

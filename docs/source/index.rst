@@ -17,4 +17,4 @@ Contents
 
    usage
 
-   example files
+   example_files
