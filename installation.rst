@@ -1,10 +1,6 @@
 Installation
 =====
 
-.. _installation:
-
-Installation
-------------
 
 To use MIRISim Coronagraphy, first install MIRISim: https://wiki.miricle.org/Public/MirisimInstallation.
 
