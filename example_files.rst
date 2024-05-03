@@ -9,8 +9,7 @@ To run MIRISim Coronagraphy after installing it, you'll need need to cd into a f
 2. The actual python script to run the simulation
 
 An example configuration file:
-.. literalinclude:: example_setup_config.yaml
-  :language: YAML 
+.. literalinclude:: example_setup_config.txt 
 
 An example setup file:
 .. literalinclude:: scene.ini
